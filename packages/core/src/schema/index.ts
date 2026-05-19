@@ -77,6 +77,7 @@ export { ScanNode } from './nodes/scan'
 export { SiteNode } from './nodes/site'
 export { SlabNode } from './nodes/slab'
 export { SpawnNode } from './nodes/spawn'
+export { SurveillanceCameraNode } from './nodes/surveillance-camera'
 export type { StairSurfaceMaterialRole, StairSurfaceMaterialSpec } from './nodes/stair'
 export {
   getEffectiveStairSurfaceMaterial,
