@@ -8,8 +8,8 @@ export const SurveillanceCameraNode = BaseNode.extend({
   position: z.tuple([z.number(), z.number(), z.number()]).default([0, 2.5, 0]),
   /** Yaw (horizontal pan) in radians. */
   rotation: z.number().default(0),
-  /** Pitch (vertical tilt) in radians. Negative = pointing down. Default ≈ -20°. */
-  tilt: z.number().default(-0.35),
+  /** Pitch (vertical tilt) in radians. Negative = pointing down. Default ≈ -20° (-0.349 rad). */
+  tilt: z.number().default(-0.349),
   /** Horizontal field of view in degrees. 90° is standard for wide-angle CCTV lenses. */
   fov: z.number().min(10).max(180).default(90),
   /** Maximum detection range in metres. */
